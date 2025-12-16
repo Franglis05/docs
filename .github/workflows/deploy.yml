@@ -31,34 +31,39 @@ jobs:
         with:
           fetch-depth: 0 # Needed for generating git history if used on the site
 
-      # 2. Setup Node.js and pnpm
-      - name: Setup Node.js and pnpm
+      # 2. Setup Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20 # Recommended to use a recent LTS version
-          cache: 'pnpm' # Caches dependencies for faster installation
+          cache: 'pnpm' # Caches dependencies using pnpm lockfile
 
-      # 3. Install dependencies
+      # 3. FIX: Install pnpm globally
+      # This step ensures the 'pnpm' executable is available in the runner's PATH.
+      - name: Install pnpm globally
+        run: npm install -g pnpm
+
+      # 4. Install dependencies
       - name: Install dependencies (pnpm)
         run: pnpm install --frozen-lockfile
 
-      # 4. Build the VitePress site
-      # The script is taken from your package.json: "docs:build": "vitepress build docs"
+      # 5. Build the VitePress site
+      # Uses the "docs:build" script from package.json
       - name: Build VitePress site
         run: pnpm run docs:build
       
-      # 5. Configure the deployment artifact
+      # 6. Configure the deployment artifact
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      # 6. Upload the generated artifacts (the 'dist' folder)
+      # 7. Upload the generated artifacts (the 'dist' folder)
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Default output directory for VitePress
           path: docs/.vitepress/dist
 
-      # 7. Deploy to GitHub Pages
+      # 8. Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
