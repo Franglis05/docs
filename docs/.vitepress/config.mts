@@ -5,6 +5,8 @@ export default defineConfig({
   title: "Solop",
   base: '/docs/',
   description: "Solop Docs is a new UI for docs ERP",
+  lastUpdated: true,
+  head: [['link', { rel: 'icon', href: '/docs/favicon.ico' }]],
   themeConfig: {
     search: {
       provider: 'local'
@@ -45,6 +47,9 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/solop-develop/docs' }
-    ]
+    ],
+    footer: {
+      copyright: 'Copyright © 2024-present Solop Software'
+    }
   }
 })
