@@ -36,12 +36,16 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20 # Recommended to use a recent LTS version
-          cache: 'pnpm' # Caches dependencies using pnpm lockfile
-
-      # 3. FIX: Install pnpm globally
-      # This step ensures the 'pnpm' executable is available in the runner's PATH.
-      - name: Install pnpm globally
-        run: npm install -g pnpm
+          # We no longer need to specify 'cache: pnpm' here, 
+          # as the dedicated pnpm action handles setup and caching.
+          
+      # 3. FIX: Setup pnpm using the dedicated action
+      # This guarantees pnpm is installed and available in the PATH.
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8 # Specify a stable version of pnpm (or leave it out for latest)
+          run_install: false # We will run the installation separately (step 4)
 
       # 4. Install dependencies
       - name: Install dependencies (pnpm)
