@@ -6,6 +6,9 @@ export default defineConfig({
   base: '/docs/',
   description: "Solop Docs is a new UI for docs ERP",
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     logo: '/logo_alone.png',
     // logoLink: 'https://solopsoftware.com/es/inicio/',
     // https://vitepress.dev/reference/default-theme-config
