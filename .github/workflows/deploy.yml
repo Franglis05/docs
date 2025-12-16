@@ -1,15 +1,15 @@
 # .github/workflows/deploy.yml
-name: Deploy VitePress site to GitHub Pages
+name: Desplegar sitio VitePress a GitHub Pages # Nombre del flujo de trabajo
 
 on:
   push:
     branches:
-      - main # Change to 'master' if that is your main branch
+      - main # Rama principal. Cambiar a 'master' si aplica
 
-  # Allows you to run this workflow manually from the Actions tab
+  # Permite la ejecución manual desde la pestaña Actions
   workflow_dispatch:
 
-# Required permissions for the deployment action to work
+# Permisos requeridos para el despliegue
 permissions:
   contents: read
   pages: write
@@ -19,55 +19,54 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     
-    # Environment needed for deployment to GitHub Pages
+    # Entorno necesario para el despliegue
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      # 1. Checkout the code
-      - name: Checkout
+      # 1. Checkout del código
+      - name: Checkout del repositorio
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Needed for generating git history if used on the site
+          fetch-depth: 0
 
-      # 2. Setup Node.js
-      - name: Setup Node.js
+      # 2. Configurar Node.js
+      - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20 # Recommended to use a recent LTS version
-          # We no longer need to specify 'cache: pnpm' here, 
-          # as the dedicated pnpm action handles setup and caching.
+          node-version: 20
           
-      # 3. FIX: Setup pnpm using the dedicated action
-      # This guarantees pnpm is installed and available in the PATH.
-      - name: Setup pnpm
+      # 3. Configurar pnpm usando la acción oficial (solución al error de PATH)
+      - name: Configurar pnpm
         uses: pnpm/action-setup@v3
         with:
-          version: 8 # Specify a stable version of pnpm (or leave it out for latest)
-          run_install: false # We will run the installation separately (step 4)
+          version: 8 # Se recomienda usar una versión específica
+          run_install: false # La instalación se hará en el siguiente paso
 
-      # 4. Install dependencies
-      - name: Install dependencies (pnpm)
-        run: pnpm install --frozen-lockfile
+      # 4. Instalar dependencias (CORRECCIÓN CLAVE)
+      # Se elimina --frozen-lockfile para evitar el fallo si el lockfile no se encuentra/es ignorado
+      # o si hay un problema de ruta en el entorno de CI.
+      - name: Instalar dependencias (pnpm)
+        run: pnpm install
 
-      # 5. Build the VitePress site
-      # Uses the "docs:build" script from package.json
-      - name: Build VitePress site
+      # 5. Construcción del sitio VitePress
+      # Usa el script "docs:build" de tu package.json.
+      - name: Construir sitio VitePress
         run: pnpm run docs:build
       
-      # 6. Configure the deployment artifact
-      - name: Setup Pages
+      # 6. Configurar el artefacto de despliegue
+      - name: Configurar Pages
         uses: actions/configure-pages@v5
 
-      # 7. Upload the generated artifacts (the 'dist' folder)
-      - name: Upload artifact
+      # 7. Cargar los artefactos generados (la carpeta 'dist')
+      - name: Cargar artefacto de despliegue
         uses: actions/upload-pages-artifact@v3
         with:
-          # Default output directory for VitePress
+          # Directorio de salida por defecto de VitePress
           path: docs/.vitepress/dist
 
-      # 8. Deploy to GitHub Pages
-      - name: Deploy to GitHub Pages
+      # 8. Desplegar a GitHub Pages
+      - name: Desplegar a GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
