@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Solop",
   base: '/docs/',
   description: "Solop Docs is a new UI for docs ERP",
+  lang: 'es-ES',
   lastUpdated: true,
   head: [['link', { rel: 'icon', href: '/docs/favicon.ico' }]],
   themeConfig: {
