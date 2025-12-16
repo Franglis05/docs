@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Solop",
+  base: '/docs/',
   description: "Solop Docs is a new UI for docs ERP",
   themeConfig: {
     logo: '/logo_alone.png',
