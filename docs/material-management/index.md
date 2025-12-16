@@ -16,5 +16,5 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 
 ### Procesos de Reabastecimiento
 
-- [Reabastecimiento de Almacén](replenishment/process/replenishment)
-- [Reabastecimiento de Producto](replenishment/process/replenishment-product)
+<!-- - [Reabastecimiento de Almacén](replenishment/process/replenishment) -->
+<!-- - [Reabastecimiento de Producto](replenishment/process/replenishment-product) -->

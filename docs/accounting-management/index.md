@@ -51,5 +51,5 @@ El propósito de **Solop ERP** es apoyar a nuestros clientes, dar respuestas rá
 ### Reportes Contables
 
 - [Dimensiones Contables](accounting-reports/accounting-reports)
-- [Informes Financieros](accounting-reports/costs)
+<!-- - [Informes Financieros](accounting-reports/costs) -->
 - [Reportes Detallados](accounting-reports/reports)

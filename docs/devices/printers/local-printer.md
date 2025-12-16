@@ -83,7 +83,7 @@ https://solop.nyc3.digitaloceanspaces.com/public/downloads/ERP-App-Service-2.0.1
 
 3. Completar información referente a Impresora
 
-- Host de impresora http://localhost:9991
+- Host de impresora `http://localhost:9991`
 - Nombre de Impresora (puede ser cualquiera)
 - Impresion directa SI
 
