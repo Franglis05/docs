@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Solop",
   base: '/',
-  description: "Solop Docs is a new UI for docs ERP",
+  description: "Documentación oficial de Solop ERP",
   lang: 'es-ES',
   lastUpdated: true,
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
