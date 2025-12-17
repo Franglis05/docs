@@ -3,11 +3,11 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Solop",
-  base: '/docs/',
+  base: '/',
   description: "Solop Docs is a new UI for docs ERP",
   lang: 'es-ES',
   lastUpdated: true,
-  head: [['link', { rel: 'icon', href: '/docs/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     search: {
       provider: 'local'
