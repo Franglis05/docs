@@ -1,9 +1,13 @@
 import { defineConfig } from 'vitepress'
 
+// Get branch name from environment or use 'main' as default
+const branch = process.env.BRANCH_NAME || process.env.GITHUB_REF_NAME || 'main'
+const base = branch === 'main' ? '/' : `/${branch}/`
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Solop",
-  base: '/',
+  base: base,
   description: "Documentación oficial de Solop ERP",
   lang: 'es-ES',
   lastUpdated: true,
