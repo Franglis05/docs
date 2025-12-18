@@ -78,15 +78,17 @@ La carga se realiza mediante el proceso Carga de Horas, accesible desde:
 
 - Menú principal
 
-- Ventana Proyecto
+- Proyecto
 
-- Ventana Contrato de Servicios
+- Contrato de Servicios
+
+- Solicitud
 
 Campos principales:
 
 - Usuario (contexto)
 
-- Fecha
+- Fecha Sugerida
 
 - Cantidad de horas
 
@@ -96,29 +98,37 @@ Campos principales:
 
 - Proyecto / Cliente / Contrato
 
+### Fecha Sugerida (Comportamiento)
+
+* El sistema sugiere la fecha siguiente a la última hora cargada por el usuariu.
+
+* Esto aplica desde todos los accesos (Proyecto, Contrato, Solicitud).
+
+* Si el usuario nunca cargó horas, se sugiere la fecha actual.
+
 ## Restricciones de Carga
 
-- Caso 1: Usuario sin carga → debe realizar primer registro.
+- **Caso 1** (Primer Registro): Usuario sin carga → debe realizar primer registro.
 
 ![Campo](/assets/img/docs/human-management/hum-human-image46.png)
 
 Mensaje del Sistema: El usuario no tiene registro de horas hasta el momento, por favor registre las horas trabajadas.
 
-- Caso 2: Carga incompleta → error si no cumple con mínimo configurado.
+- **Caso 2** (Mínimo Diario): Carga incompleta → error si no cumple con mínimo configurado.
 
 Mensaje del SIstema: La cantidad diaria de registro de tiempo no cumple con el mínimo establecido en el último registro, por favor complete antes de registrar otro día.
 
-- Caso 3: Carga fuera de orden → no se permite cargar hoy si ayer no fue cargado.
+- **Caso 3** (Orden Cronológico**): Carga fuera de orden → no se permite cargar hoy si ayer no fue cargado.
 
 Mensaje del Sistema: Carga de horas incorrecta, las horas deben cargarse en orden cronológico evitando saltarse los días
 
-- Caso 4: Tiempo de gracia excedido → bloqueo total hasta cargar horas faltantes.
+- **Caso 4** (Bloqueo por días de gracia): Tiempo de gracia excedido → bloqueo total hasta cargar horas faltantes.
 
 Mensaje del Sistema: Tiempo de gracia excedido, por favor cargue su tiempo de trabajo.
 
 ## Modificación de Horas
 
-- esde Mi Perfil → Mis Horas o ventana Usuario.
+- Desde Mi Perfil → Mis Horas o ventana Usuario.
 
 - Se puede modificar o borrar registros.
 
@@ -153,3 +163,11 @@ Mensaje del Sistema: Tiempo de gracia excedido, por favor cargue su tiempo de tr
 - Los supervisores aprueban desde el navegador Aprobar Registro de Horas.
 
 - Se visualizan las horas pendientes y se confirman en bloque o individualmente.
+
+## Resumen
+
+✔ Control de mínimo diario al modificar horas
+✔ Bloqueo al intentar cargar días posteriores si existen días incompletos
+✔ Fecha sugerida = último registro + 1 día
+✔ Bloqueo total cuando se exceden los días de gracia
+✔ Validaciones en todos los procesos que registran horas (menú, proyecto, contrato, solicitud)
