@@ -217,7 +217,7 @@ Una vez que los productos han sido recogidos, el ERP gestiona la etapa de entreg
 
 Una vez generado el picking y entrega, el paso siguiente es **crear las facturas masivamente**.
 
-La facturación se realiza desde la orden de salida (en estado completo) en la ventana "Generar factura desde orden de salida": - [Generar Factura desde Orden de Salida](../sales-management/receivable-document/bill)
+La facturación se realiza desde la orden de salida (en estado completo) en la ventana "Generar factura desde orden de salida": - 
 
 ![Filtros Facturas](/assets/img/docs/distribution-management/dim-distribution-image26.png)
 
