@@ -14,6 +14,7 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 - [Recepción de Productos](reception)
 - [Asignación de Factura a Recepción](assignment)
 - [Tasa de Conversión Negociada](conversion)
+- [Reportes de Órdenes](order-reports)
 
 ### Documentos por Pagar
 
