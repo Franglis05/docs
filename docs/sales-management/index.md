@@ -26,8 +26,8 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 ### Procesos de Orden de Venta (solo desde ventana)
 
 - [Re-Procesar Retención](sales-orders/reprocess-ret)
-- [Crear Orden de Devolución desde Entrega/Retiro](create-return)
-- [Crear Orden desde Orden de Devolución](create-order)
+- [Crear Orden de Devolución desde Entrega/Retiro](sales-orders/create-return)
+- [Crear Orden desde Orden de Devolución](sales-orders/create-order)
 - [Actualizar Tasa de Conversión de Orden](sales-orders/update-rate)
 - [Actualizar Cálculo de Comisión de Orden](sales-orders/update-commission)
 - [Catálogo de Productos Desde Orden de Venta](sales-orders/product-catalog)
@@ -43,7 +43,7 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 - [Detalle de la Orden](sales-orders/order-detail)
 - [Transacciones de la Orden](sales-orders/order-transactions)
 - [Órdenes Abiertas](sales-orders/open-orders)
-- [Listado de Órdenes Completo](sales-orders/complete/order/list)
+- [Listado de Órdenes Completo](sales-orders/complete-order-list)
 
 ## Documentos por Cobrar
 

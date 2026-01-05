@@ -24,9 +24,9 @@ Funciones principales del proceso de distribución en un ERP para distribuidoras
 
 Para iniciar el circuito de distribución el primer paso es crear una Orden de Venta.
 Estos documentos presentan diferentes tipos, y a su vez, cada tipo de orden de venta posee un sub tipo con un determinado comportamiento.
-Para mayor detalle sobre órdenes de venta: - [Orden de Venta](../sales-management/sales-orders/order)
+Para mayor detalle sobre órdenes de venta: - 
 
-y sobre Tipos de Documentos (Tipo documento destino y subtipo OV): - [Tipos de Documentos](../sales-management/sales-orders/document-type)
+y sobre Tipos de Documentos (Tipo documento destino y subtipo OV): 
 
 ### 1. Orden de Venta Distribución:
 

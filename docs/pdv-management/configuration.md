@@ -62,7 +62,7 @@ La ventana **Terminal PDV** permite configurar cajas, taquillas o autoservicios 
 - **Vendedores Asignados**: Usuarios habilitados para operar en ese PDV.
 
 Para más información sobre precios:  
-[Lista de Precios](../sales-management/comercial-rules/price-list)
+
 
 ---
 

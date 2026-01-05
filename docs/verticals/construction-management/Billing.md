@@ -50,7 +50,7 @@ La condición para que se encuentre una orden de venta pendiente de facturar es 
 
 ![Generar Factura](/assets/img/docs/construction-management/com-image7.png)
 
-**Para mayor información sobre Generar Factura desde Línea de Orden:** - [Facturación desde línea de Orden de Venta](../../sales-management/receivable-document/billing-from-orderline)
+**Para mayor información sobre Generar Factura desde Línea de Orden:** - 
 
 ## Reporte "Detalle de Avance de Proyecto"
 
