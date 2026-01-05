@@ -67,7 +67,7 @@ Al seleccionar "Aceptar" se generan los correspondientes Conceptos a Facturar po
 
 La ventana de **Facturas por Lote** audita todo el proceso de Facturación electrónica, y asignará el tipo de comprobante de acuerdo al grupo de impuesto del Responsable de Pago (si posee RUT genera E-factura y si posee Cedula genera E-ticket).
 
-**Para mayor información sobre Generar Facturas documentos por cobrar desde Facturas por lote:** - [Facturas por Lote](../../sales-management/receivable-document/batch-invoices)
+**Para mayor información sobre Generar Facturas documentos por cobrar desde Facturas por lote:** - 
 
 ### Generar Cálculo de Morosidad
 

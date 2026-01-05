@@ -39,7 +39,7 @@ En la pestaña Cuotas podrán visualizarse los conceptos a facturar vinculados a
 En la pestaña Descuento de Línea se definirá el tipo de descuento y su valor (por ejemplo descuento hermano o descuento beca).
 Se define el descuento correspondiente en base a las líneas del Contrato.
 
-**Para mayor información sobre Descuentos de Contrato:** - [Definición de Descuentos Servicios](../../sales-management/comercial-rules/discount-definition-education)
+**Para mayor información sobre Descuentos de Contrato:** - 
 
 ### Actualización de Precios de Contrato
 
