@@ -31,7 +31,6 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 - [Actualizar Tasa de Conversión de Orden](sales-orders/update-rate)
 - [Actualizar Cálculo de Comisión de Orden](sales-orders/update-commission)
 - [Catálogo de Productos Desde Orden de Venta](sales-orders/product-catalog)
-- [Reabrir Orden](sales-orders/reopen-order)
 
 ### Navegadores de Orden de Venta
 
