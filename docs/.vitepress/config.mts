@@ -22,7 +22,7 @@ export default defineConfig({
     ],
 
 
-/*
+
     sidebar: [
       {
         text: 'Funcionalidades',
@@ -48,9 +48,7 @@ export default defineConfig({
         ]
       }
     ],
-    */
 
-    sidebar: 'auto',
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/solop-develop/docs' }
