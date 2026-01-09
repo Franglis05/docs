@@ -37,4 +37,4 @@ Por ello, **Solop ERP** presenta la siguiente guía con instrucciones claras y p
 
 - [Pago](payments-and-receipts/pay)
 - [Cobro](payments-and-receipts/payment)
-- [Recibo](payments-and-receipts/Receipt) -->
+- [Recibo de Pago/Cobro](payments-and-receipts/Receipt)
