@@ -10,4 +10,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 
 - [Pago](pay)
 - [Cobro](payment)
-<!-- - [Recibo](receipt) -->
+- [Recibo](Receipt)

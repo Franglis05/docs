@@ -37,7 +37,7 @@ export default defineConfig({
           { text: 'Gestión de PDV', link: '/pdv-management' },
           { text: 'Gestión Humana', link: '/human-management' },
           { text: 'Gestión de Relación con Clientes', link: '/customer-relationship-management' },
-          { text: 'Gestión de Balance', link: '/balance-management' },
+          { text: 'Gestión de Saldos Pendientes', link: '/balance-management' },
           { text: 'Gestión de Ventas', link: '/sales-management' },
           { text: 'Gestión Financiera', link: '/financial-management' },
           { text: 'Gestión de Activos', link: '/asset-management' },

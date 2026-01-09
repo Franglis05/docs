@@ -13,7 +13,7 @@ Cada vertical se encuentra diseñada por Solop ERP para satisfacer las necesidad
 ## Gestión de Agencias de Publicidad
 
 - [Contrato de Servicio de Agencia](agency-management/service-agency-contract)
-<!-- - [Crear Marca del Cliente obligatoria](agency-management/Create-customer-brand) -->
+- [Crear Marca del Cliente obligatoria](agency-management/create-customer-brand)
 - [Devolución Cliente/proveedor](agency-management/returns)
 - [Honorarios Variables](agency-management/variable-fees)
 
@@ -22,7 +22,7 @@ Cada vertical se encuentra diseñada por Solop ERP para satisfacer las necesidad
 - [Proyecto de Medios](agency-management/service-project/media-project)
 - [Proyecto de Agencia Creativa](agency-management/service-project/creative-agency-project)
 - [Proyecto de Producción](agency-management/service-project/production-project)
-<!-- - [Checking](agency-management/service-project/Checking) -->
+- [Checking](agency-management/service-project/checking)
 - [Compra Directa a un Proveedor en nombre de Cliente](agency-management/service-project/direct-purchase-from-supplier)
 - [Proyecto de Medios](agency-management/service-project/quote-for-clients)
 - [Proyecto de Media Retail](agency-management/service-project/media-retail-project)
