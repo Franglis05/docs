@@ -16,5 +16,5 @@ La facturación electrónica consiste en la emisión de comprobantes fiscales qu
 - [Importación Comprobantes Fiscales Electrónicos Recibidos](import-cfe-received)
 - [Retenciones y Resguardos](withholding)
 - [Configuración Comprobantes Fiscales Electrónicos](configuration)
-<!-- - [Emisión Comprobantes Fiscales Electrónicos](inssuance) -->
+- [Emisión Comprobantes Fiscales Electrónicos](issuance)
 - [Preguntas Frecuentes - Comprobantes Fiscales Electrónicos](frequently_ask)
