@@ -21,8 +21,8 @@ export default defineConfig({
       { text: 'Funcionalidades', link: '/master-data' },
     ],
 
-    sidebar: 'auto'
-/*
+
+
         sidebar: [
       {
         text: 'Funcionalidades',
@@ -49,7 +49,7 @@ export default defineConfig({
         ]
       }
     ],
-*/
+
 
 
 
