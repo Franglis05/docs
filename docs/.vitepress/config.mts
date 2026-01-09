@@ -22,8 +22,8 @@ export default defineConfig({
     ],
 
 
-
-        sidebar: [
+/*
+    sidebar: [
       {
         text: 'Funcionalidades',
         items: [
@@ -43,15 +43,14 @@ export default defineConfig({
           { text: 'Gestión de Ventas', link: '/sales-management' },
           { text: 'Gestión Financiera', link: '/financial-management' },
           { text: 'Gestión de Activos', link: '/asset-management' },
-          { text: 'Gestión de Saldos Pendientes', link: '/balance-management' },
           { text: 'Preguntas Frecuentes', link: '/frequently-asked-questions' },
           { text: 'Verticales Oficiales de Solop ERP', link: '/verticals' },
         ]
       }
     ],
+    */
 
-
-
+    sidebar: 'auto',
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/solop-develop/docs' }
