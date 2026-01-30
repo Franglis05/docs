@@ -38,3 +38,4 @@ Por ello, **Solop ERP** presenta la siguiente guía con instrucciones claras y p
 - [Pago](payments-and-receipts/pay)
 - [Cobro](payments-and-receipts/payment)
 - [Recibo de Pago/Cobro](payments-and-receipts/Receipt)
+- [Lote de Procesador de Pagos](payments-and-receipts/payment-processor-batch)
