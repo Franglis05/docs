@@ -11,3 +11,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 - [Pago](pay)
 - [Cobro](payment)
 - [Recibo](Receipt)
+- [Lote de Procesador de Pagos](payment-processor-batch)

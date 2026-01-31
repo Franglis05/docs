@@ -88,6 +88,9 @@ El agente escanea **todo el directorio recursivamente**.
 PASO 1: ESCANEAR
 ├── Ejecutar scripts/scan_resources.py
 ├── Detectar links de Loom en archivos
+├── Detectar URLs de imágenes en transcripciones/documentos
+├── Descargar imágenes desde URLs (scripts/download_images.py)
+├── Extraer imágenes de archivos DOCX
 └── Listar transcripciones, imágenes, SQL, código
 
 PASO 2: PREGUNTAR NOMBRE
@@ -96,7 +99,7 @@ PASO 2: PREGUNTAR NOMBRE
 PASO 3: ANALIZAR
 ├── Procesar transcripciones (scripts/process_transcript.py)
 ├── Anonimizar datos sensibles (scripts/anonymize_data.py)
-├── Analizar imágenes (visión)
+├── Analizar imágenes locales y descargadas (visión)
 ├── Revisar SQL para entender cambios
 └── Consultar references/project-structure.md para mapeo
 
@@ -190,6 +193,7 @@ article: false
 | Script | Propósito |
 |--------|-----------|
 | `scan_resources.py` | Detectar todos los recursos del directorio |
+| `download_images.py` | Descargar imágenes desde URLs públicas |
 | `process_transcript.py` | Limpiar y procesar transcripciones |
 | `anonymize_data.py` | Reemplazar datos de clientes por datos Solop |
 | `validate_entry.py` | Validar que el directorio tenga recursos |
@@ -199,11 +203,14 @@ article: false
 
 - [ ] Nombre del feature obtenido del usuario
 - [ ] Recursos escaneados del directorio
+- [ ] Imágenes descargadas desde URLs (si las hay)
+- [ ] Imágenes extraídas de DOCX (si las hay)
 - [ ] Transcripciones procesadas y anonimizadas
 - [ ] Tipo de funcionalidad deducido/confirmado
 - [ ] Ubicación confirmada con el usuario
 - [ ] Documento .md generado
-- [ ] Imágenes copiadas a carpeta correcta
+- [ ] Imágenes copiadas a carpeta correcta con nombres descriptivos
+- [ ] Imágenes integradas en el documento markdown
 - [ ] index.md actualizado
 - [ ] `pnpm docs:build` exitoso
 

@@ -40,7 +40,11 @@ AGENTE: "Detecté que es una ventana de Gestión de Ventas → Comisiones.
 USUARIO: "Sí" / "No, ponla en..."
    │
    ▼
-AGENTE: Genera documentación, copia imágenes, actualiza index, valida build
+AGENTE: Genera documentación:
+        - Archivo: sales-management/commissions/bonus-management.md (inglés)
+        - Carpeta imágenes: bonus-management/ (inglés)
+        - Contenido del .md: en español
+        - Actualiza index, valida build
 ```
 
 ## Qué Pregunta el Agente
@@ -58,7 +62,7 @@ AGENTE: Genera documentación, copia imágenes, actualiza index, valida build
 |----------|-----------------|
 | Tipo (ventana/proceso/reporte) | Transcripciones + capturas |
 | Menú de acceso | Transcripciones ("vamos a Gestión de Ventas...") |
-| Nombre del archivo .md | Nombre del feature → kebab-case |
+| Nombre del archivo .md | Nombre del feature → **traducir a inglés** → kebab-case |
 | Ubicación (módulo/subcarpeta) | Palabras clave + menú detectado |
 | Descripción | Síntesis de transcripciones |
 | Campos y propósito | Análisis de transcripciones + imágenes |
@@ -88,6 +92,9 @@ El agente escanea **todo el directorio recursivamente**.
 PASO 1: ESCANEAR
 ├── Ejecutar scripts/scan_resources.py
 ├── Detectar links de Loom en archivos
+├── Detectar URLs de imágenes en transcripciones/documentos
+├── Descargar imágenes desde URLs (scripts/download_images.py)
+├── Extraer imágenes de archivos DOCX
 └── Listar transcripciones, imágenes, SQL, código
 
 PASO 2: PREGUNTAR NOMBRE
@@ -96,7 +103,7 @@ PASO 2: PREGUNTAR NOMBRE
 PASO 3: ANALIZAR
 ├── Procesar transcripciones (scripts/process_transcript.py)
 ├── Anonimizar datos sensibles (scripts/anonymize_data.py)
-├── Analizar imágenes (visión)
+├── Analizar imágenes locales y descargadas (visión)
 ├── Revisar SQL para entender cambios
 └── Consultar references/project-structure.md para mapeo
 
@@ -104,7 +111,7 @@ PASO 4: DEDUCIR Y CONFIRMAR
 ├── Tipo de funcionalidad → preguntar si hay duda
 ├── Menú de acceso → extraído de transcripciones
 ├── Módulo y subcarpeta → preguntar para confirmar
-└── Nombre del archivo .md → kebab-case del nombre
+└── Nombre del archivo .md → traducir nombre a inglés → kebab-case
 
 PASO 5: GENERAR
 ├── Crear documento .md con estructura de references/doc-template.md
@@ -190,20 +197,38 @@ article: false
 | Script | Propósito |
 |--------|-----------|
 | `scan_resources.py` | Detectar todos los recursos del directorio |
+| `download_images.py` | **NUEVO** Descargar imágenes desde URLs públicas |
 | `process_transcript.py` | Limpiar y procesar transcripciones |
 | `anonymize_data.py` | Reemplazar datos de clientes por datos Solop |
 | `validate_entry.py` | Validar que el directorio tenga recursos |
 | `generate_doc.py` | Generar estructura base del documento |
 
-## 7. Checklist Final
+## 7. Ejemplos de Traducción de Nombres
+
+**IMPORTANTE**: Los nombres de archivos y carpetas SIEMPRE en inglés, el contenido en español.
+
+| Nombre del Feature (español) | Nombre del Archivo (inglés) | Carpeta de Imágenes |
+|------------------------------|----------------------------|---------------------|
+| Gestión de Bonificaciones | `bonus-management.md` | `bonus-management/` |
+| Versionamiento de Facturación Electrónica | `electronic-billing-versioning.md` | `electronic-billing-versioning/` |
+| Configuración de Impuestos | `tax-configuration.md` | `tax-configuration/` |
+| Proceso de Cierre de Caja | `cash-closing-process.md` | `cash-closing-process/` |
+| Reportes de Ventas | `sales-reports.md` | `sales-reports/` |
+
+## 8. Checklist Final
 
 - [ ] Nombre del feature obtenido del usuario
 - [ ] Recursos escaneados del directorio
+- [ ] Imágenes descargadas desde URLs (si las hay)
+- [ ] Imágenes extraídas de DOCX (si las hay)
 - [ ] Transcripciones procesadas y anonimizadas
 - [ ] Tipo de funcionalidad deducido/confirmado
 - [ ] Ubicación confirmada con el usuario
+- [ ] **Nombre de archivo traducido a inglés** (kebab-case)
+- [ ] **Contenido del documento en español**
 - [ ] Documento .md generado
-- [ ] Imágenes copiadas a carpeta correcta
+- [ ] Imágenes copiadas a carpeta correcta con nombres descriptivos en inglés
+- [ ] Imágenes integradas en el documento markdown
 - [ ] index.md actualizado
 - [ ] `pnpm docs:build` exitoso
 
@@ -213,13 +238,23 @@ article: false
 docs/
 ├── .vitepress/config.mts       # NO MODIFICAR automáticamente
 ├── public/                     # Assets globales
-├── [modulo]/
+├── [modulo]/                   # Nombre en inglés (ej: sales-management)
 │   ├── index.md                # Índice con links
-│   └── [subcarpeta]/
+│   └── [subcarpeta]/           # Nombre en inglés (ej: commissions)
 │       ├── index.md
-│       ├── feature.md
-│       └── feature/            # Carpeta de imágenes
+│       ├── feature.md          # Nombre en inglés (ej: bonus-management.md)
+│       └── feature/            # Carpeta de imágenes en inglés
 │           └── *.png
+```
+
+**Ejemplo real:**
+```
+docs/electronic-billing/
+├── index.md
+├── electronic-billing-versioning.md         # archivo en inglés
+├── electronic-billing-versioning/           # carpeta en inglés
+│   ├── screenshot-1.png
+│   └── screenshot-2.png
 ```
 
 ## 3. Formato de Documentos
@@ -252,9 +287,13 @@ Secciones principales:
 
 ### Imágenes
 
-Carpeta con mismo nombre del .md:
+Carpeta con mismo nombre del .md (en inglés):
 ```markdown
-![Descripción](./nombre-archivo/imagen.png)
+# Ejemplo para "Versionamiento de Facturación Electrónica"
+# Archivo: electronic-billing-versioning.md
+# Carpeta imágenes: electronic-billing-versioning/
+
+![Descripción](./electronic-billing-versioning/imagen.png)
 ```
 
 ## 4. Proceso de Generación
@@ -329,11 +368,11 @@ personas:
 ## 5. Reglas
 
 1. NO modificar config.mts automáticamente
-2. Usar kebab-case para archivos/carpetas
-3. Imágenes en carpeta dedicada
-4. Validar build antes de finalizar
-5. Frontmatter obligatorio
-6. Idioma español
+2. **Nombres de archivos y carpetas en INGLÉS** usando kebab-case
+3. **Contenido de documentos en ESPAÑOL**
+4. Imágenes en carpeta dedicada (nombre en inglés)
+5. Validar build antes de finalizar
+6. Frontmatter obligatorio
 7. Links relativos
 8. Actualizar index.md correspondiente
 
@@ -360,11 +399,13 @@ Detecta automáticamente:
 - Transcripciones, imágenes, SQL, código
 - Documentos adicionales
 
-## 7. Checklist
+## 9. Checklist Rápido
 
 - [ ] contexto.yaml validado
 - [ ] Fuentes recopiladas
 - [ ] **Datos sensibles anonimizados**
+- [ ] **Nombres de archivos/carpetas en inglés** (kebab-case)
+- [ ] **Contenido en español**
 - [ ] .md creado con formato correcto
 - [ ] Imágenes copiadas
 - [ ] index.md actualizado
