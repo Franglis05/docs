@@ -37,7 +37,7 @@ El dashboard muestra un indicador numérico con el total acumulado de ventas del
 En la parte superior se presenta:
 - **Título:** Venta Diaria por Organización
 - **Subtítulo:** Venta neta diaria por organización
-- **Indicador principal:** valor total acumulado del período consultado (ej. $7,985,900)
+- **Indicador principal:** valor total acumulado del período consultado (ej. $17,862,033)
 - **Leyenda:** listado de organizaciones con su color asignado
 
 En la esquina superior derecha se encuentran las opciones para cambiar la vista:
@@ -57,21 +57,21 @@ En la esquina superior izquierda se encuentra el [filtro de fechas](./#filtro-de
 
 La siguiente tabla muestra las ventas diarias por organización para un período de 10 días:
 
-| Fecha | Tienda Las Piedras | Tienda Tres Cruces | Tienda Mayorista | Distribución Central | Tienda MVD Shopping | Administración Retail | Total |
+| Fecha | Tienda Mayorista | Distribución Central | Tienda C | Administración Retail | Tienda B | Tienda A | Total |
 |-------|-------------------:|-------------------:|-----------------:|---------------------:|--------------------:|----------------------:|------:|
-| 2025-10-01 | 27,269.55 | 31,598.30 | 25,313.16 | 162,310.33 | 120,791.05 | 122,715.99 | 489,998.38 |
-| 2025-10-02 | 26,052.50 | 70,212.55 | 34,650.63 | 372,249.18 | 118,406.13 | 8,249.99 | 629,820.98 |
-| 2025-10-03 | 43,127.00 | 96,043.99 | 106,998.75 | 135,046.91 | 172,836.10 | 5,646.74 | 559,699.49 |
-| 2025-10-04 | 63,538.79 | 93,851.10 | 54,801.59 | 0.00 | 178,285.80 | 304.08 | 390,781.36 |
-| 2025-10-05 | 52,149.50 | 59,046.95 | 0.00 | 0.00 | 158,257.07 | 0.00 | 269,453.52 |
-| 2025-10-06 | 16,916.56 | 53,510.50 | 108,866.12 | 1,234,575.56 | 91,773.06 | 7,047.69 | 1,512,689.49 |
-| 2025-10-07 | 26,796.06 | 76,502.30 | 436,262.49 | 615,579.80 | 120,204.70 | 214,490.10 | 1,489,835.45 |
-| 2025-10-08 | 23,135.50 | 43,399.55 | 263,842.70 | 740,115.92 | 126,271.98 | 36,819.00 | 1,233,584.65 |
-| 2025-10-09 | 35,478.90 | 37,917.80 | 23,484.16 | 188,864.93 | 115,020.84 | 163,258.88 | 564,025.51 |
-| 2025-10-10 | 19,828.15 | 69,170.25 | 180,268.01 | 382,457.16 | 166,503.62 | 27,784.33 | 846,011.52 |
-| **Total** | **334,292.51** | **631,253.29** | **1,234,487.61** | **3,831,199.79** | **1,368,150.35** | **586,316.80** | **$7,985,900.35** |
+| 2025-11-14 | 181,763.85 | 1,586,590.32 | 117,699.71 | 171,414.35 | 81,536.06 | 58,291.66 | 2,197,295.95 |
+| 2025-11-15 | 17,667.14 | 0.00 | 185,298.77 | 241,220.74 | 46,896.23 | 86,124.47 | 577,207.35 |
+| 2025-11-16 | 0.00 | 0.00 | 134,329.70 | 190,832.91 | 55,958.71 | 69,127.08 | 450,248.40 |
+| 2025-11-17 | 212,364.60 | 763,209.31 | 102,927.38 | 168,972.36 | 14,036.58 | 49,531.95 | 1,311,042.18 |
+| 2025-11-18 | 148,254.62 | 554,344.74 | 102,458.05 | 171,314.47 | 33,292.23 | 41,252.86 | 1,050,916.97 |
+| 2025-11-19 | 85,863.08 | 598,967.44 | 85,630.51 | 153,590.52 | 35,653.50 | 57,658.14 | 1,017,363.19 |
+| 2025-11-20 | 34,076.92 | 975,014.68 | 103,334.46 | 180,958.86 | 37,678.50 | 46,514.73 | 1,377,578.15 |
+| 2025-11-21 | 270,033.08 | 299,657.60 | 142,490.14 | 324,399.92 | 39,224.34 | 56,103.50 | 1,131,908.58 |
+| 2025-11-22 | 16,354.32 | 0.00 | 223,032.08 | 0.00 | 49,208.00 | 87,877.69 | 376,472.09 |
+| 2025-11-23 | 0.00 | 0.00 | 126,629.39 | 171,604.04 | 53,018.49 | 52,032.75 | 403,284.67 |
+| **Total** | **966,377.61** | **4,777,784.09** | **1,323,830.19** | **1,774,308.17** | **446,502.64** | **604,514.83** | **$9,893,317.53** |
 
-En este ejemplo se observa que **Distribución Central** presenta la mayor variabilidad diaria, con picos superiores a $1.2M (6 de octubre) y días sin actividad (4 y 5 de octubre, correspondientes a fin de semana). Las tiendas físicas mantienen un flujo más estable, con **Tienda MVD Shopping** mostrando actividad consistente todos los días incluyendo fines de semana.
+En este ejemplo se observa que **Distribución Central** presenta la mayor variabilidad diaria, con picos superiores a $1.5M (14 de noviembre) y días sin actividad (15, 16, 22 y 23 de noviembre, correspondientes a fines de semana). Las tiendas físicas mantienen un flujo más estable, con **Tienda C** mostrando actividad consistente todos los días incluyendo fines de semana.
 
 ## Consideraciones importantes
 

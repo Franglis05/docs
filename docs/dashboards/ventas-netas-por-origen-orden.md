@@ -58,13 +58,13 @@ En la esquina superior izquierda se encuentra el [filtro de fechas](./#filtro-de
 | Origen de Orden | Ventas Netas ($) |
 |----------------|-----------------|
 | Sin Origen | 56,403,002.18 |
-| MercadoLibre Ositos y Cia | 355,926.79 |
-| Web Ositos y Cia | 314,929.38 |
-| MercadoLibre Smart | 181,436.17 |
-| Web Smart | 147,255.80 |
-| MercadoLibre Kassel | 92,504.03 |
+| MercadoLibre | 355,926.79 |
+| Web A | 314,929.38 |
+| MercadoLibre_2 | 181,436.17 |
+| Web B | 147,255.80 |
+| Web D | 92,504.03 |
 | Punto de Venta | 5,673.08 |
-| **Total** | **57,500,727.43** |
+| **Total** | **$57,500,727.43** |
 
 En este ejemplo se observa que **Sin Origen** concentra el 98% de las ventas, correspondiente a facturación cuya orden de venta no tiene un canal de origen asignado. Entre los canales identificados, los marketplaces de **MercadoLibre** y las tiendas **Web** representan los principales canales digitales.
 

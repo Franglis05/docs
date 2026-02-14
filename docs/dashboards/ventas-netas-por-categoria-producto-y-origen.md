@@ -74,7 +74,7 @@ La siguiente tabla muestra las ventas netas por categoría de producto, con el d
 | SERVICIO | -427,000.00 | 0.00 | -427,000.00 |
 | **Total** | **43,516,955.37** | **910,959.10** | **$44,427,914.47** |
 
-Los canales digitales identificados incluyen: **MercadoLibre Ositos y Cia** ($291,932), **Web Ositos y Cia** ($265,911), **MercadoLibre Smart** ($148,718), **Web Smart** ($123,925), **MercadoLibre Kassel** ($75,823) y **Punto de Venta** ($4,650).
+Los canales digitales identificados incluyen: **MercadoLibre** ($291,932), **Web A** ($265,911), **MercadoLibre_2** ($148,718), **Web B** ($123,925), **Web D** ($75,823) y **Punto de Venta** ($4,650).
 
 En este ejemplo se observa que **Sin Origen** concentra el 98% de las ventas en todas las categorías. Entre los canales digitales, **JUGUETES** es la categoría con mayor participación en canales identificados ($446K).
 

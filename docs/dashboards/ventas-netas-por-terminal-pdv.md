@@ -37,7 +37,7 @@ El dashboard muestra un indicador numérico con el total acumulado de ventas net
 En la parte superior se presenta:
 - **Título:** Ventas Netas por Terminal PDV
 - **Subtítulo:** Ventas netas por terminal PDV mon. reporte
-- **Indicador principal:** valor total acumulado del período consultado (ej. $57,500,727)
+- **Indicador principal:** valor total acumulado del período consultado (ej. $17,862,033)
 - **Leyenda:** listado de terminales con su color asignado
 
 En la esquina superior derecha se encuentran las opciones para cambiar la vista:
@@ -57,16 +57,16 @@ En la esquina superior izquierda se encuentra el [filtro de fechas](./#filtro-de
 
 | Terminal PDV | Ventas Netas ($) |
 |-------------|-----------------|
-| Sin Terminal | 41,885,863.89 |
-| Smart MSC Caja 1 | 6,055,190.20 |
-| Ositos y Cia XXX Caja 1 | 3,744,898.84 |
-| Ositos y Cia MSC Caja 1 | 2,403,780.55 |
-| Ositos y Cia LP Caja 1 | 2,345,803.27 |
-| Puerto Arenal Caja 1 | 985,715.68 |
-| Punto de Venta Service | 79,475.00 |
-| **Total** | **57,500,727.43** |
+| Sin Terminal | 13,298,770.89 |
+| Sucursal C Caja 1 | 1,811,771.30 |
+| Sucursal E Caja 1 | 1,057,273.23 |
+| Sucursal D Caja 1 | 719,018.06 |
+| Sucursal A Caja 1 | 695,606.18 |
+| Sucursal B Caja 1 | 254,842.85 |
+| Punto de Venta Service | 24,750.00 |
+| **Total** | **$17,862,032.51** |
 
-En este ejemplo se observa que **Sin Terminal** concentra el 73% de las ventas, correspondiente a la facturación que no se realiza desde un punto de venta. Entre los terminales activos, **Smart MSC Caja 1** lidera con $6M, seguido por las cajas de **Ositos y Cia** en sus diferentes locales.
+En este ejemplo se observa que **Sin Terminal** concentra el 74% de las ventas, correspondiente a la facturación que no se realiza desde un punto de venta. Entre los terminales activos, **Sucursal C Caja 1** lidera con $1.8M, seguido por **Sucursal E Caja 1** con $1.1M.
 
 ## Consideraciones importantes
 

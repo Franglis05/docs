@@ -37,7 +37,7 @@ El dashboard muestra un indicador numérico con el total acumulado de ventas del
 En la parte superior se presenta:
 - **Título:** Venta Diaria por Forma de Pago
 - **Subtítulo:** Ventas sin imp. diarias por forma de pago
-- **Indicador principal:** valor total acumulado del período consultado (ej. $1,622,686)
+- **Indicador principal:** valor total acumulado del período consultado (ej. $794,567)
 - **Leyenda:** listado de formas de pago con su color asignado
 
 En la esquina superior derecha se encuentran las opciones para cambiar la vista:
@@ -55,27 +55,24 @@ En la esquina superior izquierda se encuentra el [filtro de fechas](./#filtro-de
 
 ## Datos de ejemplo
 
-La siguiente tabla muestra el total acumulado de ventas por forma de pago en el período consultado (3 días):
+La siguiente tabla muestra el total acumulado de ventas por forma de pago en el período consultado (1 día):
 
 | Forma de Pago | Ventas ($) |
 |--------------|-----------:|
-| Sin Forma Pago | 812,921.65 |
-| Pleni1 SmartMVD | 277,371.38 |
-| Pleni1 Ositos XXX | 157,439.79 |
-| Efectivo | 148,576.19 |
-| Pleni1 OsitosMVD | 85,469.15 |
-| Pleni1 T00005 Ositos LP | 71,467.55 |
-| Fiserv | 36,755.65 |
-| Devolución PSIG | 10,353.00 |
-| Pleni1 Puerto Arenal | 8,980.00 |
-| Soy Santander | 3,299.50 |
-| Transferencia Bancaria / Giro - BROU | 3,171.66 |
-| Fisrerv - Mastercard | 3,010.50 |
-| Mercado Pago | 1,970.00 |
-| Nota de Crédito (Devolución) | 1,900.00 |
-| **Total** | **$1,622,686.02** |
+| Sin Forma Pago | 514,613.75 |
+| Terminal POS 8 | 109,159.92 |
+| Terminal POS 10 | 63,017.75 |
+| Efectivo | 49,257.72 |
+| Terminal POS 7 | 35,459.06 |
+| Terminal POS 9 | 16,747.30 |
+| Fiserv | 2,877.50 |
+| Terminal POS 6 | 2,120.38 |
+| Devolución | 799.00 |
+| Nota de Crédito (Devolución) | 490.00 |
+| Terminal POS 5 | 25.00 |
+| **Total** | **$794,567.38** |
 
-En este ejemplo se observa que **Sin Forma Pago** concentra el 50% de las ventas, correspondiente a facturación que no tiene un pago asociado con forma de pago específica. Entre los métodos identificados, las plataformas **Pleni1** en sus diferentes terminales representan el medio de pago más utilizado, seguido por **Efectivo** con $148K.
+En este ejemplo se observa que **Sin Forma Pago** concentra el 65% de las ventas, correspondiente a facturación que no tiene un pago asociado con forma de pago específica. Entre los métodos identificados, las **Terminales POS** en sus diferentes configuraciones representan el medio de pago más utilizado, seguido por **Efectivo** con $49K.
 
 ## Consideraciones importantes
 

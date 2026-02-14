@@ -37,7 +37,7 @@ El dashboard muestra un indicador numérico con el total acumulado de ventas net
 En la parte superior se presenta:
 - **Título:** Ventas Netas por Organización
 - **Subtítulo:** Ventas netas por organización mon. reporte
-- **Indicador principal:** valor total acumulado del período consultado (ej. $57,500,727)
+- **Indicador principal:** valor total acumulado del período consultado (ej. $17,862,033)
 - **Leyenda:** listado de organizaciones con su color asignado
 
 En la esquina superior derecha se encuentran las opciones para cambiar la vista:
@@ -57,15 +57,15 @@ En la esquina superior izquierda se encuentra el [filtro de fechas](./#filtro-de
 
 | Organización | Ventas Netas ($) |
 |-------------|-----------------:|
-| Distribución Central | 25,834,490.29 |
-| Administración Retail | 9,759,834.38 |
-| Tienda MVD Shopping | 8,502,259.77 |
-| Tienda Mayorista | 7,271,537.41 |
-| Tienda Tres Cruces | 3,786,802.31 |
-| Tienda Las Piedras | 2,345,803.27 |
-| **Total** | **57,500,727.43** |
+| Distribución Central | 8,435,533.40 |
+| Administración Retail | 3,226,998.26 |
+| Tienda C | 2,515,377.59 |
+| Tienda Mayorista | 1,897,849.97 |
+| Tienda A | 1,067,255.23 |
+| Tienda B | 719,018.06 |
+| **Total** | **$17,862,032.51** |
 
-En este ejemplo se observa que **Distribución Central** concentra el 45% de las ventas totales, seguida por **Administración Retail** con el 17% y **Tienda MVD Shopping** con el 15%. Las tiendas físicas (Las Piedras y Tres Cruces) representan una menor proporción del volumen total.
+En este ejemplo se observa que **Distribución Central** concentra el 47% de las ventas totales, seguida por **Administración Retail** con el 18% y **Tienda C** con el 14%. Las tiendas físicas (Tienda A y Tienda B) representan una menor proporción del volumen total.
 
 ## Consideraciones importantes
 

@@ -37,7 +37,7 @@ El dashboard muestra un indicador numérico con el total acumulado de ventas net
 En la parte superior se presenta:
 - **Título:** Ventas Netas por Vendedor
 - **Subtítulo:** Ventas netas por vendedor en moneda de reporte
-- **Indicador principal:** valor total acumulado del período consultado (ej. $57,525,127)
+- **Indicador principal:** valor total acumulado del período consultado (ej. $57,500,727)
 - **Leyenda:** listado de vendedores con su color asignado
 
 En la esquina superior derecha se encuentran las opciones para cambiar la vista:
@@ -69,21 +69,21 @@ La siguiente tabla muestra el resumen de los 10 vendedores con mayor volumen de 
 | Vendedor_1805 | 1,510,538.59 |
 | Vendedor_109 | 1,306,035.58 |
 | Vendedor_1804 | 1,185,877.00 |
-| Otros (38 vendedores) | 13,281,655.41 |
-| **Total** | **57,525,127.43** |
+| Otros (36 vendedores) | 12,257,255.41 |
+| **Total** | **$57,500,727.43** |
 
 El desglose mensual de los principales vendedores es el siguiente:
 
-| Vendedor | 2025-09 | 2025-10 | 2025-11 | 2025-12 | 2026-01 |
-|----------|---------|---------|---------|---------|---------|
-| Vendedor_84 | 0 | 5,665,929.38 | 4,720,545.83 | 210,926.03 | 0 |
-| Vendedor_103 | 0 | 3,970,434.66 | 4,883,343.23 | 364,614.76 | 0 |
-| Vendedor_104 | 0 | 3,414,540.32 | 4,758,333.90 | 164,397.56 | 0 |
-| Vendedor_1820 | 0 | 2,716,471.33 | 1,420,563.57 | 54,228.65 | 0 |
-| Vendedor_129 | 0 | 1,984,110.77 | 1,757,408.22 | 61,700.30 | 0 |
-| Vendedor_100 | 0 | 3,032,911.95 | 345,262.14 | 0 | 0 |
+| Vendedor | 2025-10 | 2025-11 | 2025-12 |
+|----------|---------|---------|---------|
+| Vendedor_84 | 5,665,929.38 | 4,720,545.83 | 210,926.03 |
+| Vendedor_103 | 3,970,434.66 | 4,883,343.23 | 364,614.76 |
+| Vendedor_104 | 3,414,540.32 | 4,758,333.90 | 164,397.56 |
+| Vendedor_1820 | 2,716,471.33 | 1,420,563.57 | 54,228.65 |
+| Vendedor_129 | 1,984,110.77 | 1,757,408.22 | 61,700.30 |
+| Vendedor_100 | 3,032,911.95 | 345,262.14 | 0.00 |
 
-En este ejemplo se observa que los meses de octubre y noviembre de 2025 concentran la actividad de ventas para todos los vendedores, mientras que septiembre no registra actividad y enero de 2026 presenta valores mínimos.
+En este ejemplo se observa que los meses de octubre y noviembre de 2025 concentran la mayor actividad de ventas para todos los vendedores, mientras que diciembre presenta una caída significativa en el volumen de todos los agentes comerciales.
 
 ## Consideraciones importantes
 

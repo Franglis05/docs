@@ -37,7 +37,7 @@ El dashboard muestra un indicador numérico con el total acumulado de ventas del
 En la parte superior se presenta:
 - **Título:** Venta Mensual por Forma de Pago
 - **Subtítulo:** Ventas sin imp. mensual por forma de pago
-- **Indicador principal:** valor total acumulado del período consultado (ej. $54,625,683)
+- **Indicador principal:** valor total acumulado del período consultado (ej. $16,802,396)
 - **Leyenda:** listado de formas de pago con su color asignado
 
 En la esquina superior derecha se encuentran las opciones para cambiar la vista:
@@ -55,25 +55,27 @@ En la esquina superior izquierda se encuentra el [filtro de fechas](./#filtro-de
 
 ## Datos de ejemplo
 
-La siguiente tabla muestra el total acumulado de ventas por forma de pago en el período consultado:
+La siguiente tabla muestra el total acumulado de ventas por forma de pago en el período consultado (3 meses):
 
 | Forma de Pago | Ventas ($) |
 |--------------|-----------:|
-| Sin Forma Pago | 36,680,445.28 |
-| Pleni1 SmartMVD | 5,478,680.63 |
-| Efectivo | 3,564,523.48 |
-| Pleni1 Ositos XXX | 3,139,979.10 |
-| Pleni1 OsitosMVD | 2,167,414.23 |
-| Pleni1 T00005 Ositos LP | 1,690,280.57 |
-| Fiserv | 640,379.91 |
-| Nota de Crédito (Devolución) | 384,090.83 |
-| Transferencia Bancaria / Giro - BROU | 286,988.90 |
-| Pleni1 Puerto Arenal | 250,234.47 |
-| Devolución PSIG | 236,354.78 |
-| Otros (10 formas de pago) | 106,311.31 |
-| **Total** | **$54,625,683.49** |
+| Sin Forma Pago | 11,597,660.71 |
+| Terminal POS 8 | 1,736,236.67 |
+| Efectivo | 995,743.32 |
+| Terminal POS 10 | 887,898.18 |
+| Terminal POS 7 | 637,124.18 |
+| Terminal POS 9 | 519,772.00 |
+| Nota de Crédito (Devolución) | 119,510.40 |
+| Fiserv | 94,316.44 |
+| Transferencia Bancaria / Giro - BROU | 84,700.50 |
+| Terminal POS 6 | 63,241.84 |
+| Devolución | 35,156.67 |
+| Terminal POS 5 | 18,250.00 |
+| Vale Obsequio | 7,987.00 |
+| Mercado Pago | 4,798.00 |
+| **Total** | **$16,802,395.91** |
 
-En este ejemplo se observa que **Sin Forma Pago** concentra el 67% de las ventas. Entre los métodos identificados, las plataformas **Pleni1** en sus diferentes terminales representan el medio de pago principal ($12.7M en total, 23% de las ventas), seguido por **Efectivo** con $3.6M (7%) y **Fiserv** con $640K.
+En este ejemplo se observa que **Sin Forma Pago** concentra el 69% de las ventas. Entre los métodos identificados, las **Terminales POS** en sus diferentes configuraciones representan el medio de pago principal ($3.9M en total, 23% de las ventas), seguido por **Efectivo** con $996K (6%) y **Fiserv** con $94K.
 
 ## Consideraciones importantes
 

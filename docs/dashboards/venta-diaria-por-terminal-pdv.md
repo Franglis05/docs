@@ -37,7 +37,7 @@ El dashboard muestra un indicador numérico con el total acumulado de ventas del
 En la parte superior se presenta:
 - **Título:** Venta Diaria por Terminal PDV
 - **Subtítulo:** Venta diaria por terminal PDV
-- **Indicador principal:** valor total acumulado del período consultado (ej. $57,525,127)
+- **Indicador principal:** valor total acumulado del período consultado (ej. $5,342,279)
 - **Leyenda:** listado de terminales PDV con su color asignado
 
 En la esquina superior derecha se encuentran las opciones para cambiar la vista:
@@ -55,20 +55,19 @@ En la esquina superior izquierda se encuentra el [filtro de fechas](./#filtro-de
 
 ## Datos de ejemplo
 
-La siguiente tabla muestra el total acumulado de ventas por terminal PDV en el período consultado (64 días):
+La siguiente tabla muestra el total acumulado de ventas por terminal PDV en el período consultado (7 días):
 
 | Terminal PDV | Ventas Netas ($) |
 |-------------|-----------------:|
-| Sin Terminal | 41,910,263.89 |
-| Smart MSC Caja 1 | 6,055,190.20 |
-| Ositos y Cia XXX Caja 1 | 3,744,898.84 |
-| Ositos y Cia MSC Caja 1 | 2,403,780.55 |
-| Ositos y Cia LP Caja 1 | 2,345,803.27 |
-| Puerto Arenal Caja 1 | 985,715.68 |
-| Punto de Venta Service | 79,475.00 |
-| **Total** | **$57,525,127.43** |
+| Sin Terminal | 3,496,416.44 |
+| Sucursal C Caja 1 | 725,741.98 |
+| Sucursal E Caja 1 | 478,753.69 |
+| Sucursal D Caja 1 | 255,849.96 |
+| Sucursal A Caja 1 | 232,639.93 |
+| Sucursal B Caja 1 | 152,876.67 |
+| **Total** | **$5,342,278.67** |
 
-En este ejemplo se observa que **Sin Terminal** concentra el 73% de las ventas, correspondiente a la facturación que no está asociada a un terminal PDV específico. Entre los terminales identificados, **Smart MSC Caja 1** lidera con $6.1M, seguido por **Ositos y Cia XXX Caja 1** con $3.7M.
+En este ejemplo se observa que **Sin Terminal** concentra el 65% de las ventas, correspondiente a la facturación que no está asociada a un terminal PDV específico. Entre los terminales identificados, **Sucursal C Caja 1** lidera con $726K, seguido por **Sucursal E Caja 1** con $479K.
 
 ## Consideraciones importantes
 
