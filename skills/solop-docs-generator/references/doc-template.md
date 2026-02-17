@@ -102,12 +102,25 @@ Usar formato:
 Nota: Dos espacios al final de la línea del nombre para forzar salto de línea.
 
 ### Imágenes
-- Ubicar en carpeta con mismo nombre del .md
-- Usar nombres descriptivos en kebab-case
-- Alt text descriptivo
+- **IMPORTANTE**: Ubicar en `docs/public/assets/img/docs/[modulo]/`
+- Usar nombres descriptivos en inglés con kebab-case
+- Alt text descriptivo en español
+- **Usar ruta absoluta `/assets/img/docs/[modulo]/imagen.png`**
 
 ```markdown
+# ❌ NO HACER (rutas relativas):
 ![Vista principal de la ventana](./nombre-feature/vista-principal.png)
+
+# ✅ CORRECTO (ruta absoluta):
+![Vista principal de la ventana](/assets/img/docs/modulo/01-vista-principal.png)
+```
+
+**Ejemplo real:**
+```markdown
+# Documento: docs/electronic-billing/electronic-billing-versioning.md
+# Imagen: docs/public/assets/img/docs/electronic-billing/01-screenshot.png
+
+![Verificación del Soporte](/assets/img/docs/electronic-billing/01-screenshot.png)
 ```
 
 ### Links Internos
@@ -121,6 +134,22 @@ Usar rutas relativas:
 - Para campos y acciones: lista con guiones y negrita
 - Para consideraciones: lista simple con guiones
 - Para pasos numerados: usar ### con número
+
+### Tablas con montos
+- Las columnas que contienen valores monetarios o numéricos **siempre van alineadas a la derecha**
+- Usar `---:` en el separador de la columna para alinear a la derecha
+
+```markdown
+# ✅ CORRECTO:
+| Categoría | Ventas Netas ($) |
+|-----------|-----------------:|
+| Producto A | 1,234,567.89 |
+
+# ❌ INCORRECTO:
+| Categoría | Ventas Netas ($) |
+|-----------|-----------------|
+| Producto A | 1,234,567.89 |
+```
 
 ### Tono
 - Formal pero accesible

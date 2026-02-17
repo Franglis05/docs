@@ -56,7 +56,7 @@ En la esquina superior izquierda se encuentra el [filtro de fechas](./#filtro-de
 ## Datos de ejemplo
 
 | Región de Ventas | Ventas Netas ($) |
-|------------------|-----------------|
+|------------------|-----------------:|
 | Estándar | 38,518,605.96 |
 | Montevideo Este | 18,876,671.16 |
 | Interior | 56,854.54 |

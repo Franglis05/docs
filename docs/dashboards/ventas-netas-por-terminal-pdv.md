@@ -56,7 +56,7 @@ En la esquina superior izquierda se encuentra el [filtro de fechas](./#filtro-de
 ## Datos de ejemplo
 
 | Terminal PDV | Ventas Netas ($) |
-|-------------|-----------------|
+|-------------|-----------------:|
 | Sin Terminal | 13,298,770.89 |
 | Sucursal C Caja 1 | 1,811,771.30 |
 | Sucursal E Caja 1 | 1,057,273.23 |

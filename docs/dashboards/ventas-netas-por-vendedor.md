@@ -58,7 +58,7 @@ En la esquina superior izquierda se encuentra el [filtro de fechas](./#filtro-de
 La siguiente tabla muestra el resumen de los 10 vendedores con mayor volumen de ventas netas en el período consultado:
 
 | Vendedor | Ventas Netas ($) |
-|----------|-----------------|
+|----------|-----------------:|
 | Vendedor_84 | 10,597,401.24 |
 | Vendedor_103 | 9,218,392.65 |
 | Vendedor_104 | 8,337,271.78 |
@@ -75,7 +75,7 @@ La siguiente tabla muestra el resumen de los 10 vendedores con mayor volumen de 
 El desglose mensual de los principales vendedores es el siguiente:
 
 | Vendedor | 2025-10 | 2025-11 | 2025-12 |
-|----------|---------|---------|---------|
+|----------|--------:|--------:|--------:|
 | Vendedor_84 | 5,665,929.38 | 4,720,545.83 | 210,926.03 |
 | Vendedor_103 | 3,970,434.66 | 4,883,343.23 | 364,614.76 |
 | Vendedor_104 | 3,414,540.32 | 4,758,333.90 | 164,397.56 |

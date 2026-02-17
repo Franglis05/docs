@@ -56,7 +56,7 @@ En la esquina superior izquierda se encuentra el [filtro de fechas](./#filtro-de
 ## Datos de ejemplo
 
 | Campaña | Ventas Netas ($) |
-|---------|-----------------|
+|---------|-----------------:|
 | Sin Campaña | 41,967,444.29 |
 | Estándar | 7,070,409.59 |
 | Construcción | 6,054,544.20 |

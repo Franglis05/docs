@@ -56,7 +56,7 @@ En la esquina superior izquierda se encuentra el [filtro de fechas](./#filtro-de
 ## Datos de ejemplo
 
 | Origen de Orden | Ventas Netas ($) |
-|----------------|-----------------|
+|----------------|-----------------:|
 | Sin Origen | 56,403,002.18 |
 | MercadoLibre | 355,926.79 |
 | Web A | 314,929.38 |
