@@ -375,6 +375,7 @@ personas:
 6. Frontmatter obligatorio
 7. Links relativos
 8. Actualizar index.md correspondiente
+9. **Columnas de monto siempre alineadas a la derecha** en tablas markdown (usar `---:` en el separador)
 
 ## 6. Scripts Disponibles
 

@@ -56,7 +56,7 @@ En la esquina superior izquierda se encuentra el [filtro de fechas](./#filtro-de
 ## Datos de ejemplo
 
 | Contrato | Ventas Netas ($) |
-|----------|-----------------|
+|----------|-----------------:|
 | Sin Contrato | 57,500,727.43 |
 | **Total** | **57,500,727.43** |
 

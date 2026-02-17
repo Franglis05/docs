@@ -58,7 +58,7 @@ En la esquina superior izquierda se encuentra el [filtro de fechas](./#filtro-de
 La siguiente tabla muestra el resumen de ventas netas por categoría de producto en el período consultado:
 
 | Categoría | Ventas Netas ($) |
-|-----------|-----------------|
+|-----------|-----------------:|
 | ELECTRODOMESTICOS | 22,417,860.64 |
 | JUGUETES | 15,212,754.90 |
 | RODADOS | 2,099,331.21 |
@@ -77,7 +77,7 @@ La siguiente tabla muestra el resumen de ventas netas por categoría de producto
 El desglose mensual por categoría es el siguiente:
 
 | Categoría | 2025-10 | 2025-11 | 2025-12 |
-|-----------|---------|---------|---------|
+|-----------|--------:|--------:|--------:|
 | ELECTRODOMESTICOS | 12,049,139.89 | 9,926,952.52 | 441,768.23 |
 | JUGUETES | 8,217,455.58 | 6,747,154.38 | 248,144.94 |
 | RODADOS | 775,748.82 | 1,217,382.67 | 106,199.72 |

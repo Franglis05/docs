@@ -58,7 +58,7 @@ En la esquina superior izquierda se encuentra el [filtro de fechas](./#filtro-de
 La siguiente tabla muestra el resumen de los 15 grupos de producto con mayor volumen de ventas netas en el período consultado:
 
 | Grupo de Producto | Ventas Netas ($) |
-|-------------------|-----------------|
+|-------------------|-----------------:|
 | Sin Grupo | 10,119,778.97 |
 | FRIO | 3,253,706.99 |
 | VENTILADOR DE TECHO | 2,722,784.54 |

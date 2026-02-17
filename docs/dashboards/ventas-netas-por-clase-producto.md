@@ -58,7 +58,7 @@ En la esquina superior izquierda se encuentra el [filtro de fechas](./#filtro-de
 La siguiente tabla muestra el resumen de ventas netas por clase de producto en el período consultado:
 
 | Clase de Producto | Ventas Netas ($) |
-|-------------------|-----------------|
+|-------------------|-----------------:|
 | Sin Clase | 24,656,234.38 |
 | MARCA PROPIA | 15,973,132.23 |
 | NATHOR | 817,698.42 |
@@ -77,7 +77,7 @@ La siguiente tabla muestra el resumen de ventas netas por clase de producto en e
 El desglose mensual de las principales clases es el siguiente:
 
 | Clase | 2025-10 | 2025-11 | 2025-12 |
-|-------|---------|---------|---------|
+|-------|--------:|--------:|--------:|
 | Sin Clase | 13,661,086.04 | 10,558,824.97 | 436,323.37 |
 | MARCA PROPIA | 8,371,475.11 | 7,285,160.00 | 316,497.12 |
 | NATHOR | 153,717.73 | 588,070.55 | 75,910.14 |

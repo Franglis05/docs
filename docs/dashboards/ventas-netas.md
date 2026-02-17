@@ -58,7 +58,7 @@ En la esquina superior izquierda se encuentra el [filtro de fechas](./#filtro-de
 La siguiente tabla muestra los datos correspondientes al dashboard ilustrado:
 
 | Período | Ventas Netas ($) |
-|---------|-----------------|
+|---------|-----------------:|
 | 2025-09 | 0.00 |
 | 2025-10 | 29,486,774.63 |
 | 2025-11 | 26,890,382.10 |

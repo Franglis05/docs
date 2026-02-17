@@ -58,7 +58,7 @@ En la esquina superior izquierda se encuentra el [filtro de fechas](./#filtro-de
 La siguiente tabla muestra el resumen de los 10 clientes con mayor volumen de ventas netas en el período consultado:
 
 | Cliente | Ventas Netas ($) |
-|---------|-----------------|
+|---------|-----------------:|
 | SOCIO_22 | 15,308,954.38 |
 | SOCIO_4467 | 8,319,612.63 |
 | SOCIO_4426 | 2,754,885.52 |
