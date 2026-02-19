@@ -81,7 +81,7 @@ Los **resguardos** se generan en base a las retenciones aplicadas. Funcionan com
 - Se pueden preparar o completar inmediatamente.
 - Los resguardos se visualizan en la ventana **Resguardos**.
 
-::: note
+::: tip
 Los resguardos siempre se generan en *moneda local*, convertida con la *tasa de cambio* del documento por pagar.
 :::
 
@@ -109,7 +109,7 @@ Si se anula un resguardo ya completo y enviado a InvoiCy, el sistema:
 - Genera automáticamente un **Contra-Resguardo** (negativo del original).
 - Se enlaza al documento original mediante el campo `Reversal_ID`.
 
-::: note
+::: tip
 El Contra-Resguardo se envía automáticamente a InvoiCy al anular el documento original.
 :::
 

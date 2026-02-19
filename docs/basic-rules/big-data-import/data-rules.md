@@ -57,7 +57,7 @@ Ejecutando el botón **Importar Socios del Negocio** se cargarán a tabla defini
 
 **Grupos SDN:** Si necesitás crear nuevos grupos (por ejemplo, “Distribuidores”), deben ser dados de alta previamente por el equipo técnico. 
 
-::: note
+::: tip
  En caso de que existan datos que no cumplan con la lógica definida por el sistema, la   planilla será devuelta al cliente para su corrección. 
  Si se desea continuar con la carga pese a estos errores, la corrección de los mismos implicará costos adicionales que no están contemplados en el alcance inicial de la carga masiva. 
 :::

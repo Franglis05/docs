@@ -124,7 +124,7 @@ Es un elemento que permite agregar y quitar datos (campos) de la ventana. Cada c
 
 ## Pestañas Laterales
 
-Este botón ubicado en el lateral derecho permite visualizar pestañas relacionadas con el registro (por ejemplo: histórico de cambios. documentos relacionados, adjuntos, notas, solicitudes, información contable, etc.).
+Este botón ubicado en el lateral derecho permite visualizar pestañas relacionadas con el registro (por ejemplo: histórico de cambios. documentos relacionados, adjuntos, notas, solicitudes, información contable, etc.)
 
 **Información de Solapas**
 

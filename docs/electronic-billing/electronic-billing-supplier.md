@@ -40,7 +40,7 @@ Cada documento muestra un campo de *Estado*.
 - Si un CFE fue *rechazado*, se puede editar haciendo clic en el ícono de lápiz para reenviarlo.
 - Recomendación: contactar al soporte antes de realizar modificaciones.
 
-::: note 
+::: tip 
 Cuando el cliente también usa InvoiCy, el sistema envía copias del documento a su email registrado y a la DGI.
 :::
 
@@ -64,7 +64,7 @@ Existen dos métodos para definir el envío por email, que dependen como esté d
 - Ingresar en InvoiCy, consultar el comprobante emitido.
 - En la pestaña **Receptor**, verificar el campo **E-mail receptor**.
 
-::: note 
+::: tip 
 Para deshabilitar el envío automático desde Solop ERP, solicitar al soporte que configure la opción interna "Deshabilitar Envío de mail a BP" en la ventana *Luy Sender*.
 :::
 
@@ -105,7 +105,7 @@ Se tratan de listados con información que completan el control y fiscalización
 - Enviar a DGI  
 - Descargar  
 
-::: warning
+::: tip
 Si el reporte diario fue rechazado, primero validar los CFE emitidos antes de editar o reenviar el reporte. Contactar a soporte si es necesario.
 :::
 

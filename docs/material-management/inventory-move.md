@@ -109,7 +109,7 @@ La opción de Movimiento Rápido permite transferir productos de un almacén a o
 
   * Una vez completados los datos, confirme la operación para registrar el movimiento de stock.
 
-::: tip
+::: info
 Asegúrese de verificar los datos antes de confirmar cada operación para evitar errores en el registro de movimientos.
 :::
 
