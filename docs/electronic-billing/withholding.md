@@ -109,7 +109,7 @@ Si se anula un resguardo ya completo y enviado a InvoiCy, el sistema:
 - Genera automáticamente un **Contra-Resguardo** (negativo del original).
 - Se enlaza al documento original mediante el campo `Reversal_ID`.
 
-::: note
+::: info
 El Contra-Resguardo se envía automáticamente a InvoiCy al anular el documento original.
 :::
 
