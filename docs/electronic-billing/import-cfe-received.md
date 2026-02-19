@@ -33,7 +33,7 @@ La carga inicial se realiza por organización. Se deben indicar los rangos de fe
    - Cantidad de líneas detectadas
    - Posibles errores
 
-::: note
+::: info
 Esta etapa genera una carga preliminar en una **tabla intermedia**, pero aún no crea documentos en el sistema.
 :::
 
