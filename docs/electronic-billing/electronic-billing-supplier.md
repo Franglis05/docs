@@ -64,7 +64,7 @@ Existen dos métodos para definir el envío por email, que dependen como esté d
 - Ingresar en InvoiCy, consultar el comprobante emitido.
 - En la pestaña **Receptor**, verificar el campo **E-mail receptor**.
 
-::: note 
+::: info 
 Para deshabilitar el envío automático desde Solop ERP, solicitar al soporte que configure la opción interna "Deshabilitar Envío de mail a BP" en la ventana *Luy Sender*.
 :::
 
