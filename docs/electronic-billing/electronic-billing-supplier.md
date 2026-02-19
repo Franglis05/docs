@@ -40,7 +40,7 @@ Cada documento muestra un campo de *Estado*.
 - Si un CFE fue *rechazado*, se puede editar haciendo clic en el ícono de lápiz para reenviarlo.
 - Recomendación: contactar al soporte antes de realizar modificaciones.
 
-::: note 
+::: info 
 Cuando el cliente también usa InvoiCy, el sistema envía copias del documento a su email registrado y a la DGI.
 :::
 
