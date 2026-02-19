@@ -29,7 +29,7 @@ A su vez, esta forma de visualización permite navegar entre las diferentes pest
 
 ![Ejemplo de una Ventana](/assets/img/docs/basic-rules/bar-icons-windows3.png)
 
-::: note
+::: info
 Para realizar el cambio de visualización utilizamos el botón Multi registro o mono registro (dependiendo de la visual actual de la ventana) del extremo superior izquierdo.
 :::
 
