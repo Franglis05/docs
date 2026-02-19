@@ -81,7 +81,7 @@ Los **resguardos** se generan en base a las retenciones aplicadas. Funcionan com
 - Se pueden preparar o completar inmediatamente.
 - Los resguardos se visualizan en la ventana **Resguardos**.
 
-::: note
+::: info
 Los resguardos siempre se generan en *moneda local*, convertida con la *tasa de cambio* del documento por pagar.
 :::
 
