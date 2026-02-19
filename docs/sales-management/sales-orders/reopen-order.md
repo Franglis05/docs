@@ -6,3 +6,6 @@ sticky: 9
 article: false
 ---
 
+
+> [!TIP]
+> Optional information to help a user be more successful.
