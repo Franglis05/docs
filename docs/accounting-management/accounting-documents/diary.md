@@ -98,7 +98,7 @@ Seleccione un tipo de aplicación en el campo **Tipo de Aplicación**.
 
 El tipo de aplicación es un campo obligatorio, le permite clasificar el lote contable por tipo de aplicación, este es establecido actual por defecto, para profundizar más este tema vaya a el documento: Tipo de Aplicación.
 
-::: note
+::: tip
 Por defecto Solop ERP establece el tipo de aplicación actual.
 :::
 
@@ -126,7 +126,7 @@ Suponemos que es necesario realizar un asiento ajustando la depreciación anual 
 
 Para este el año fiscal será desde enero a diciembre, se tomaría entonces como periodo contable para el lote el periodo correspondiente a diciembre.
 
-::: note
+::: tip
 Por defecto Solop ERP establece el periodo correspondiente a la fecha actual.
 :::
 
@@ -140,7 +140,7 @@ Suponemos que es necesario realizar un asiento ajustando la depreciación anual 
 
 En pro de mantener la integridad del balance, Solop ERP ejecuta la conversión en la contabilidad a la moneda del esquema principal basados en la tasa de cambio correspondiente a la fecha de este documento.
 
-::: note
+::: tip
 Por defecto Solop ERP establece la moneda del esquema principal de la compañía actual.
 :::
 
@@ -160,7 +160,7 @@ Podrá visualizar en el campo **Total Crédito**, el total del débito correspon
 
 El total de crédito es un campo solo lectura, actualizado automáticamente, acumulando el saldo acreedor de las notas contables que componen el lote.
 
-::: note
+::: tip
 Recuerde guardar el registro de los campos con ayuda del icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 :::
 
@@ -172,7 +172,7 @@ Seleccione la acción **Completar** y la opción **OK** para completar el docume
 
 Podrá visualizar que el documento pasa de estado **Borrador** a estado **Completo**, en el campo **Estado del Documento**
 
-::: note
+::: tip
 ¡Recuerde!
 Para Solop ERP, un documento que no se encuentre en estado **Completo**, es un documento **No Válido**, posterior a ser completado este documento podrá ser reactivado mientras el periodo contable esté activo.
 :::
@@ -235,7 +235,7 @@ Podrá visualizar en el campo **Total Crédito**, el total del débito correspon
 
 El total de crédito es un campo solo lectura, actualizado automáticamente, acumulando el saldo acreedor de las líneas que componen la nota contable.
 
-::: note
+::: tip
 Recuerde guardar el registro de los campos con ayuda del icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 :::
 
@@ -265,7 +265,7 @@ La cuenta es un campo obligatorio, le permite definir la cuenta contable en la c
 
 Esta cuenta tiene incidencias en el campo combinación contable, cuando es guardado el registro establece la Combinación Contable de forma automática.
 
-::: note
+::: tip
 ¡Recuerde!
 Debe realizar este procedimiento por cada débito o crédito que desee aplicar a cada cuenta.
 :::
@@ -274,7 +274,7 @@ Seleccione el socio de negocio en el campo **Socio del Negocio**.
 
 El socio de negocio no es un campo obligatorio, sin embargo, le permite definir un proveedor, cliente o cualquier otra entidad que funge como dimensión contable en su asiento, para profundizar más este tema vaya a el documento: Dimensiones Contables.
 
-::: note
+::: tip
 ¡Recuerde!
 El socio de negocio debe estar registrado previamente en Solop ERP.
 :::
@@ -283,7 +283,7 @@ Seleccione en el campo **Producto**, el producto correspondiente al registro que
 
 El producto no es un campo obligatorio, sin embargo, le permite definir un producto o servicio que funge como dimensión contable en su asiento, para profundizar más este tema vaya a el documento: Dimensiones Contables.
 
-::: note
+::: tip
 ¡Recuerde!
 El producto debe estar registrado previamente en Solop ERP.
 :::
@@ -292,7 +292,7 @@ Seleccione la actividad ABC en el campo **Actividad**.
 
 La actividad no es un campo obligatorio, sin embargo, le permite definir una actividad ABC que funge como dimensión contable en su asiento, para profundizar más este tema vaya a el documento: Dimensiones Contables.
 
-::: note
+::: tip
 ¡Recuerde!
 La actividad ABC debe estar registrada previamente en Solop ERP.
 :::
@@ -301,7 +301,7 @@ Seleccione el centro de costo en el campo **Centro de Costos**.
 
 El centro de costo no es un campo obligatorio, sin embargo, le permite definir un centro de costo que funge como dimensión contable en su asiento, para profundizar más este tema vaya a el documento: Dimensiones Contables.
 
-::: note
+::: tip
 ¡Recuerde!
 El centro de costo debe estar registrado previamente en Solop ERP.
 :::
@@ -310,7 +310,7 @@ Seleccione un alias de una combinación contable en el campo **Alias**.
 
 El alias no es un campo obligatorio, sin embargo, le permite seleccionar un alias asociado a una combinación contable, para establecer la combinación en el campo combinación contable, para profundizar más este tema vaya a el documento: Combinación Contable.
 
-::: note
+::: tip
 ¡Recuerde!
 La combinación debe estar registrada previamente en Solop ERP.
 :::
@@ -367,6 +367,6 @@ Ingrese la cantidad en el campo **Cantidad**.
 
 La cantidad no es un campo obligatorio, sin embargo es utilizada para ingresar la cantidad cuentas de orden, utilizadas para registrar transacciones y valores contingentes que sirven para controlar los resultados de ciertas operaciones.
 
-::: note
+::: tip
 Recuerde guardar el registro de los campos con ayuda del icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 :::
