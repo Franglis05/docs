@@ -62,7 +62,7 @@ El resultado con este tipo de aplicación, sería el siguiente:
 
 Imagen 1. Información Contable Actual
 
-::: note
+::: tip
 El tipo de aplicación actual, es predeterminado en toda transacción realizada y reportes generados desde Solop ERP.
 :::
 
