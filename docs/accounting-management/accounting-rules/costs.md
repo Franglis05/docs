@@ -643,7 +643,7 @@ Seleccione en el campo **Tipo de Movimiento**, el tipo de movimiento por el cual
 
 Imagen 11. Campo Tipo de Movimiento de la Ventana Detalle de la Transacción de Costos
 
-Introduzca en el campo **No. del Documento**, el número del documento por el cual requiere filtrar la búsqueda de información.
+Introduzca en el campo **No. del Documento**, el número del documento por el cual requiere filtrar la búsqueda de información
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image339.png)
 
