@@ -60,7 +60,7 @@ La combinación no es un campo obligatorio, sin embargo, le permite definir un n
 
 Imagen 6. Campo Combinación de la Ventana Combinación
 
-::: note
+::: tip
 Este campo no es obligatorio.
 :::
 
