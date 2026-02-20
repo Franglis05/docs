@@ -62,7 +62,7 @@ Para definir Esquemas Contables Adicionales primeramente debemos determinar si n
 El Esquema Contable también define las cuentas predeterminadas a ser usadas para las transacciones generadas por el sistema (por ej. Contabilizar las facturas de CxC). 
 Para asegurar que todas las cuentas requeridas estén disponibles, las cuentas predeterminadas se definen en el nivel del Esquema Contable. Éstas son las cuentas que se importan como parte de la Configuración Inicial de la Compañía.
 
-::: note
+::: tip
 El objetivo es generar todas las entradas de asientos contables que correspondan a las transacciones realizadas por la empresa.
 :::
 
