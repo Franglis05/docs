@@ -99,7 +99,7 @@ Realice el procedimiento regular para generar una factura de cuentas por pagar, 
 
 Imagen 2. Factura por Pagar
 
-::: note
+::: tip
 Es necesario que el documento por pagar no se encuentre en estado completo, de esta manera se pueden aplicar los costos adicionales a los productos.
 :::
 
@@ -115,7 +115,7 @@ Podrá apreciar en el campo **Distribución de Costo**, que por defecto se encue
 
 Imagen 4. Campo Distribución de Costo
 
-::: note
+::: tip
 Este campo permite establecer con que tipología sera realizada la distribución de costos. Solop ERP utiliza cinco (5) tipologías para aplicar la distribución de costo a un producto.
 :::
 
@@ -141,7 +141,7 @@ Seleccione en el campo **Entrega/Recibo**, el documento de recepción del produc
 
 Imagen 6. Campo Entrega/Recibo
 
-::: note
+::: tip
 Este campo define el producto recepcionado al cual se le aplicará la distribución de costo según la tipología seleccionada anteriormente.
 :::
 
@@ -155,7 +155,7 @@ Seleccione la opción **Distribución de Costos**, para aplicar el costo adicion
 
 Imagen 7. Distribución de Costos
 
-::: note
+::: tip
 Según la tipología seleccionada anteriormente, Solop ERP realiza la distribución de costos de la siguiente manera:
 :::
 
@@ -463,7 +463,7 @@ Seleccione en el campo **Almacén**, el almacén por el cual el usuario requiere
 
 Imagen 4. Campo Almacén de la Ventana Valoración de la Transacción
 
-::: note
+::: tip
 Para simular el proceso y generar el reporte de valoración de inventario, se deja el campo **Almacén** en blanco, indicando de esta manera que la búsqueda de la información se debe realizar en todos los almacenes registrados en Solop ERP.
 :::
 
@@ -479,7 +479,7 @@ Seleccione en el campo **Producto**, el producto por el cual el usuario requiere
 
 Imagen 6. Campo Producto de la Ventana Valoración de la Transacción
 
-::: note
+::: tip
 Para simular el proceso y generar el reporte de valoración de inventario, se selecciona como ejemplo el producto **Cucharilla**.
 :::
 
@@ -643,7 +643,7 @@ Seleccione en el campo **Tipo de Movimiento**, el tipo de movimiento por el cual
 
 Imagen 11. Campo Tipo de Movimiento de la Ventana Detalle de la Transacción de Costos
 
-Introduzca en el campo **No. del Documento**, el número del documento por el cual requiere filtrar la búsqueda de información.
+Introduzca en el campo **No. del Documento**, el número del documento por el cual requiere filtrar la búsqueda de información
 
 ![Campo](/assets/img/docs/accounting-management/acm-accounting-image339.png)
 
