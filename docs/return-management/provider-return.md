@@ -52,7 +52,7 @@ Este módulo permite gestionar el proceso completo de **devoluciones de producto
 - Seleccionar las líneas y cantidades a devolver (puede ser **parcial o total**).
 - Confirmar y guardar. Se genera una **Orden de Devolución**, con valor y precio correspondiente.
 
-> :::note
+> :::tip
 > Esta orden de devolución **no genera aún movimiento de inventario**. Su comportamiento es opuesto a una orden de venta.
 > :::
 
@@ -77,7 +77,7 @@ Este módulo permite gestionar el proceso completo de **devoluciones de producto
 - Seleccionar la línea (por ejemplo, de la orden 810).
 - Cargar y completar la Nota de Crédito.
 
-> :::note
+> :::tip
 > La nota de crédito se genera por el importe original facturado de los productos devueltos.
 > :::
 
