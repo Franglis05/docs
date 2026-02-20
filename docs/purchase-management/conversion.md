@@ -76,7 +76,7 @@ Finalmente, la tasa cambio de la negociación se debe ingresar en el campo **Tas
 
 Imagen 10. Campo Tasa de Cambio Negociada de la Pestaña Conversión de Moneda de la Orden de Compra
 
-::: note
+::: tip
 Recuerde que debe guardar el registro de los campos, antes de posicionarse en cualquier otra pestaña de la ventana **Órdenes de Compra**.
 :::
 
@@ -94,6 +94,6 @@ Adicionalmente, se reemplaza el tipo de conversión de la pestaña **Conversión
 
 Imagen 12. Tipo de Conversión de la Negociación en Pestaña Conversión de Moneda de la Orden de Compra
 
-::: note
+::: tip
 Al momento de realizar el documento por pagar correspondiente a la orden de compra previamente creada, Solop ERP respeta el tipo de conversión y la tasa de cambio negociada que contiene dicha orden, generando el documento con los mismos valores en cuanto al tipo de conversión y la tasa de cambio.
 :::
