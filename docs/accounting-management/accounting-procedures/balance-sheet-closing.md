@@ -39,7 +39,7 @@ El Lote del  Asiento Contable deberá completarse
 
 Si desea anular un Asiento ya Completo deberá Anular y Corregir para que la fecha de anulación sea la misma que la del asiento.
 
-::: warning
+::: tip
 CUIDADO La acción Anular y Causación crea el asiento con la fecha de hoy.
 :::
 
@@ -90,7 +90,7 @@ El proceso de cambio de cuentas integrales analiza aquellas cuentas contables qu
 
 Si dicha cuenta tiene un saldo en alguna moneda extranjera, aplicará un asiento de ajuste por el importe en UYU que falte para que los USD queden registrados con su correcta conversión.
 
-::: note
+::: tip
 Importante: El proceso de "Diferencia de Cambio Cuentas Integrales" no mira saldos totales de cuentas contables a la fecha, sino que mira exclusivamente el saldo en cada una de las correspondientes monedas fuente. Esto significa que si bien una cuenta pueda tener un saldo cero a final de ejercicio, luego que se corra el proceso de diferencia de cambio, se actualizarán los USD que no estén actualizados correctamente y le aplicará un asiento de ajuste por diferencia de cambio de cuenta integral (Monetaria).
 :::
 
