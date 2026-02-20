@@ -177,7 +177,7 @@ Imagen 60. Campo Total de Líneas
 
 De igual manera, podrá visualizar en el campo **Gran Total**, la sumatoria de todos los montos reflejados en el campo **Total de la Línea**, de todas las líneas que contiene el documento por pagar.
 
-::: note
+::: tip
 El gran total identifica el total incluyendo impuestos y totales de fletes en la moneda del documento.
 :::
 
