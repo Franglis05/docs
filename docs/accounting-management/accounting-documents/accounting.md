@@ -141,7 +141,7 @@ Ubique el documento de factura por pagar asociado al pago y seleccione la pesta�
 
 Imagen 13. Asignación Factura Pago
 
-::: note
+::: tip
 La asignación **Factura/Pago**, es generada automáticamente después de completar el documento **Pago**, asociado a la factura.
 :::
 
@@ -363,7 +363,7 @@ Imagen 2. Asiento Contable de la Nómina
 
 Realice el procedimiento regular para reflejar en Solop ERP el pago de la nómina por empleado, el mismo se encuentra explicado en el documento Registro de Pagos de Nómina, elaborado por Solop ERP.
 
-::: note
+::: tip
 El pago de nómina que se genera al cumplir con todos los procesos que indica el documento, rebaja el pasivo.
 :::
 
