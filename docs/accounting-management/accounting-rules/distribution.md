@@ -104,7 +104,7 @@ El checklist **Crear Reversión**, indica que el movimiento de reversión se cre
 
 Imagen 9. Checklist Crear Reversión de la Ventana Distribución Contable
 
-::: warning
+::: tip
 Si se inhabilita el checklist, el movimiento original será borrado.
 :::
 
@@ -204,7 +204,7 @@ Al destildar el checklist **Cualquier Usuario 1**, se habilita el campo **Centro
 
 Imagen 25. Campo Centro de Costos del Checklist Cualquier Usuario 1 de la Ventana Distribución Contable
 
-::: note
+::: tip
 Recuerde guardar el registro de los campos de la pestaña antes de posicionarse en otra pestaña de la misma ventana, seleccionando el icono **Guardar Cambios** ubicado en la barra de herramientas de Solop ERP.
 :::
 
@@ -246,7 +246,7 @@ El checklist **Signo de cuenta invertida**,
 
 Imagen 31. Checklist Signo de Cuenta Invertida de la Pestaña Línea de la Ventana Distribución Contable
 
-::: note
+::: tip
 Al seleccionar el checklist **Signo de cuenta invertida**, no se habilita ningún campo.
 :::
 
@@ -340,7 +340,7 @@ El checklist **Sobreescribe Usuario 3**,
 
 Imagen 46. Checklist Sobreescribe Usuario 3 de la Pestaña Línea de la Ventana Distribución Contable
 
-::: note
+::: tip
 Al seleccionar el checklist **Sobreescribe Usuario 3**, no se habilita ningún campo.
 :::
 
@@ -350,7 +350,7 @@ El checklist **Sobreescribe Usuario 4**,
 
 Imagen 47. Checklist Sobreescribe Usuario 4 de la Pestaña Línea de la Ventana Distribución Contable
 
-::: note
+::: tip
 Al seleccionar el checklist **Sobreescribe Usuario 4**, no se habilita ningún campo.
 :::
 
