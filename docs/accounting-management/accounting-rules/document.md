@@ -37,6 +37,6 @@ Podrá visualizar la ventana de confirmación **Documentos sin Aplicar**, donde 
 
 Imagen 4. Ventana de Confirmación para Crear Entradas Contables
 
-::: note
+::: tip
 Luego de contabilizado el registro, la ventana se actualiza y es restado el mismo al número de líneas o registros que contiene dicha ventana.
 :::
