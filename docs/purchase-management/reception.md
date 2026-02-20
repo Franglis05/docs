@@ -88,7 +88,7 @@ La opción de Recepción Rápida permite registrar la entrada de productos de un
 
   * Especifique el código del producto a recibir.
 
-::: note
+::: tip
 Utilizar un lector de código de barras agiliza esta operación ya que no requiere ingresar código de producto.
 :::
 
@@ -102,7 +102,7 @@ Utilizar un lector de código de barras agiliza esta operación ya que no requie
 
   * Una vez completados los datos, confirme la operación para registrar la entrada del producto en el almacén.
 
-::: note
+::: tip
 Asegúrese de verificar los datos antes de confirmar cada operación para evitar errores en el registro de recepción.
 :::
 
