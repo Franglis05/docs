@@ -113,7 +113,7 @@ Ubique y seleccione en el menú de Solop ERP, la carpeta **Gestión de Compras**
 
 Imagen 13. Menú de Solop ERP
 
-::: note
+::: tip
 Solop ERP permite que la solicitud para cotización sea realizada de tres (3) formas, definidas por el campo **Tipo SCP (RfQ)**.
 :::
 
@@ -217,7 +217,7 @@ Podrá visualizar la ventana **Solicitud para Cotización con Respuesta**, con l
 
 Imagen 34. Ventana de Solicitud para Cotización con Respuesta
 
-::: note
+::: tip
 Solop ERP crea tantos registros de solicitud de cotización con respuesta como proveedores tenga la solicitud de cotización realizada por la empresa. Cada registro creado de una solicitud de cotización contiene su mismo número de documento en el campo **SCP (RfQ)**.
 :::
 
@@ -239,7 +239,7 @@ Seleccione la pestaña **Línea Respuesta** para navegar entre los registros de 
 
 Imagen 36. Pestaña Línea Respuesta
 
-::: note
+::: tip
 Puede visualizar en la parte inferior derecha de la pestaña, la cantidad de registros de productos cotizados que posee el socio del negocio proveedor.
 :::
 
@@ -279,7 +279,7 @@ Podrá visualizar que el checklist **Completo** se tilda automáticamente al com
 
 Imagen 43. Checklist Completo
 
-::: note
+::: tip
 Repita en cada uno de los registros de socios del negocio proveedores de la **Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Líneas Seleccionadas**, el procedimiento explicado anteriormente.
 :::
 
