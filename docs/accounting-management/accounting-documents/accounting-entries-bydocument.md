@@ -91,7 +91,6 @@ Se visualiza: Factura/Recepciones de Productos Asignados
 | 21190 - Serv Entreg no Fact   | 30,000.00  |  0.00      | Gru. Soc. Neg | Serv. No Facturados  | Actual         | 
 | 21200 - Cta Fact. no Entreg   | 0.00       |  28,352.00 | Producto      | Concil. Serv recib.  | Actual         |
 | 52100 - COGS Medios           | 0.00       |  1,648.00  | Producto      | Costos o Gastos Prod | Actual         |
-
 | 952 - Compras Comprometidas  | 0.00       | 28,352.00  | Esquema Cont. | Conciliac de comprom. | Compromisos    |
 | 52100 - COGS Medios          | 28,352.00  | 0.00       | Producto      | Costos o Gastos Prod  | Compromisos    |
 
