@@ -104,7 +104,7 @@ Al tildar el checklist **Cuenta en Moneda Extranjera**, es habilitado el campo *
 
 Seleccione el checklist **Entidad Acumulada**, para indicar que la cuenta en la cual será utilizado este registro, es una cuenta sumaria.
 
-::: note
+::: tip
 La selección de este checklist, oculta la visibilidad de los demas checklist que se encuentran en la pestaña **Valor de Elemento**.
 :::
 
