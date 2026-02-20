@@ -27,7 +27,7 @@ Seleccione la opción **No Contabilizado**, para contabilizar el registro del do
 
 Imagen 3. Opción Contabilizado de la Ventana Documentos sin Aplicar
 
-::: note
+::: tip
 Para contabilizar un registro, es necesario que el mismo tenga asociado un número de documento en el campo **No. del Documento** y el estado del documento debe ser **Completo** o **Cerrado**.
 :::
 
