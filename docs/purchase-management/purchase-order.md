@@ -76,7 +76,7 @@ Al buscar el documento **Orden de Compra** con ayuda del número de documento ge
 
 Imagen 10. Orden de Compra Generada desde el Proceso Crear OC desde Requisición
 
-::: note
+::: tip
 El proceso genera el documento **Orden de Compra** en estado **Borrador** y la opción establecida de estado del documento es **Preparar**.
 :::
 
@@ -192,7 +192,7 @@ Imagen 31. Resultados de Búsqueda
 
 Seleccione las líneas de la requisición para crear la orden de compra desde las mismas.
 
-::: note
+::: tip
 Al seleccionar cualquiera de los registros, se habilitan diferentes campos que le permiten al usuario ingresar o modificar los valores en los mismos.
 :::
 
@@ -238,7 +238,7 @@ Imagen 46. Pestaña Línea de Orden
 
 Introduzca en el campo **Precio**, el precio del producto correspondiente al registro de la línea en la que se encuentra.
 
-::: note
+::: tip
 Recuerde guardar el registro de los campos en pestaña **Línea Orden Compra**
 :::
 
@@ -266,7 +266,7 @@ Una Orden de Compra en Solop ERP, es un tipo de documento emitido por la empresa
 
 Para el registro de un documento en Solop ERP debe tener en cuenta que existen campos que son de carácter obligatorio, estos campos están identificados con el carácter especial:(\*) de color rojo.
 
-::: warning
+::: tip
 Asegúrese de que cada campo que se encuentre identificado como carácter obligatorio, contenga la información requerida, de lo contrario no podrá completar el registro.
 :::
 
