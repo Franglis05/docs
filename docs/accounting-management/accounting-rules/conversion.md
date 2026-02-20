@@ -35,7 +35,7 @@ Imagen 1. Ejemplo de Validación
 
 Crear Tasa Recíproca: Esta funcionalidad permite que al guardar el registro sea creada de manera automática una tasa de cambio como reverso.
 
-::: note
+::: tip
 Un ejemplo de este caso puede ser cuando el usuario crea una tasa de cambio de moneda **UYU** a moneda **USD** con una tasa multiplicadora 2 entonces automáticamente se creará una tasa de cambio de moneda **USD** a **UYU** con la tasa multiplicadora 0.5
 :::
 
@@ -73,7 +73,7 @@ El checklist **Activo**, indica que el registro se encuentra activo y puede ser 
 
 Seleccione el checklist **Predeterminado**, para indicar como predeterminado el registro que se encuentra realizando.
 
-::: note
+::: tip
 Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 :::
 
@@ -99,7 +99,7 @@ Imagen 13. Pestaña Tasas de Cambio de la Ventana Moneda
 
 Seleccione el icono **Registro Nuevo** para crear un nuevo registro de tasas de cambio.
 
-::: warning
+::: tip
 La tasa de cambio se debe crear de dólares a pesos y de pesos a dólares.
 :::
 
@@ -113,7 +113,7 @@ Seleccione en el campo **Válido Hasta**, la fecha hasta la cual es válida la t
 
 Introduzca en el campo **Factor de Base a Destino**, la tasa por la que serán multiplicados los montos de las transacciones donde sea utilizado el tipo de conversión seleccionado anteriormente. Para ejemplificar el registro es utilizada la tasa **40,0**.
 
-::: note
+::: tip
 Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 :::
 
@@ -147,7 +147,7 @@ Seleccione en el campo **Válido Hasta**, la fecha final del periodo de validez 
 
 Introduzca en el campo **Factor de Destino a Base**, la tasa por la que serán multiplicados los montos de las transacciones donde sea utilizado el tipo de conversión seleccionado anteriormente. Para ejemplificar el registro es utilizada la tasa **40,0**.
 
-::: note
+::: tip
 Recuerde guardar los cambios realizados seleccionando el icono **Guardar Cambios**, ubicado en la barra de herramientas de Solop ERP.
 :::
 
